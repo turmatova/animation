@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Ribeye", serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+/* HEADER */
+#header {
+  padding: 30px;
+}
+.bg {
+  background: url("./img/bacround.jpg") no-repeat center/cover;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  button {
+    font-size: 14px;
+    color: white;
+    background: #f2994a;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+  }
+}
+/* HEADER */
+/* HERO */
+#hero {
+  padding: 60px 0;
+}
+.hero-text {
+  color: white;
+  h2 {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 78px;
+  }
+  p {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+  }
+  button {
+    font-size: 14px;
+    color: white;
+    background: #f2994a;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 600;
+  }
+}
+/* HERO */
+/* POPULAR */
+.popular {
+  text-align: center;
+  h4 {
+    font-family: Gelasio;
+    font-size: 43px;
+    font-weight: 500;
+    color: black;
+    padding: 20px 0;
+  }
+  h6 {
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: black;
+  }
+}
+.popular-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.popular-card {
+  text-align: center;
+  h5 {
+    font-family: Gelasio;
+    padding: 15px 0;
+    font-size: 24px;
+    color: black;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: black;
+  }
+}
+/* POPULAR */
+/* OFFERS */
+.offers{
+  text-align: center;
+  h4 {
+    font-family: Gelasio;
+    font-size: 43px;
+    font-weight: 500;
+    color: black;
+    padding: 20px 0;
+  }
+  h6 {
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: black;
+  }
+}
+.offers-block{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.offers-card{
+  
+}
+/* OFFERS */
